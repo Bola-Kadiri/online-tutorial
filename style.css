@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.nav-link{
+    width: 50%;
+   display: flex;
+   justify-content: space-between;
+}
+.nav-link li{
+    list-style: none;
+}
+.nav-link a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+nav h1{
+    margin-left: 30px;
+}
+
+nav .btn-content{
+    margin-right: 30px;
+    position: relative;
+}
+.btn-signup{
+    margin-right: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    border: 2px solid red
+}
+
+.btn-sigin{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    border: 3px solid yellow;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 90%;
+   min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.left{
+    width: 55%;
+    height: 700px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    width: 35%;
+    height: 700px;
+}
+
+.card-one{
+    width: 400px;
+    height: 250px;
+    background-color: green;
+    margin-right: 20px;
+}
+.card-two{
+    width: 200px;
+    height: 250px;
+    background-color: purple;
+}
+.inner-left-one{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.card-three{
+    width: 200px;
+    height: 250px;
+    background-color: pink;
+    margin-right: 20px;
+}
+.card-four{
+    width: 400px;
+    height: 250px;
+    background-color: black;
+}
+
+.inner-left-two{
+    display: flex;
+    justify-content: space-around;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-right{
+    width: 300px;
+    height: 500px;
+    background-color: aqua;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    section{
+        width: 90%;
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: brown;
+    }
+    .inner-left-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .inner-left-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .right{
+        width: 35%;
+      min-height: 90vh;
+    }
+    .card-right{
+        width: 300px;
+        height: 500px;
+        margin-top: 500px;
+        background-color: aqua;
+    }
+    .card-one{
+        width: 400px;
+        height: 250px;
+        background-color: green;
+        margin-right: 20px;
+        margin-top: 350px;
+        margin-bottom: 30px;
+    }
+}
