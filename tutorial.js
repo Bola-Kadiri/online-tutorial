@@ -574,7 +574,7 @@ let filter_interger_square = (arr)=>{
 
 // console.log(figure===actual)
 
-
+let new_change = "NEW STUFF"
 
 
 
